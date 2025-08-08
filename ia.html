@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>LUCÍA API IA</title>
+</head>
+<body>
+  <h1>LUCÍA API IA</h1>
+  <h3>Utilizando modelo:<strong>Gemini 1.5</strong> </h3>
+  <form id="geminiForm">
+    <label for="promptBase">Prompt Base:</label>
+    <textarea id="promptBase" rows="2" cols="60">Prompt base</textarea>
+    
+    <label for="consulta">Consulta del usuario:</label>
+    <input type="text" id="consulta" size="60" required>
+    
+    <button type="submit">Enviar consulta</button>
+  </form>
+  
+  <h2>Respuesta:</h2>
+  <div id="respuesta"></div>
+  <script src="js.js"></script>
+</body>
+</html>
